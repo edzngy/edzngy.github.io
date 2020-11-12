@@ -1,0 +1,73 @@
+body {
+    background: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+   width: 900px;
+   height: 450px;
+   margin: 7px;
+   padding: 6px;
+   border-color: black;
+}
+    
+h1 {
+    
+    font-family: Arial;
+    font-style: normal;
+    color: #0070C0;
+    background-color: ;
+    text-align: center;
+    font-size:30px;
+    text-shadow: 2px 4px 2px lightgrey;
+
+    
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.9fr 0.4fr 0.1fr;
+  gap: 0px 0px;
+}
+
+.DatenBox { grid-area: 1 / 1 / 2 / 3; 
+    background: #FDF9E3 ;
+
+}
+
+.Kontakt { grid-area: 1 / 1 / 2 / 2;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 60px;
+    color: #0070C0;
+}
+
+.BildBox { grid-area: 1 / 2 / 2 / 3;
+    }
+
+.Bild { grid-area: 1 / 2 / 2 / 3; 
+    width: 60%;
+    border-radius: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+ 
+.MeineKurse {
+    text-align: center;
+    font-size:9px;
+    color:#0070C0;
+        
+}
+
+.Socials {
+    float: left;
+    width: 8%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 20px
+}
